@@ -1,0 +1,3 @@
+texts = {"Jane Eyre":1847, "Cane":1923, "Wide Sargasso Sea":1966, "Citizen: An American Lyric":2014}
+for title, date in texts.items():
+    print(str(title) + " was published in " + str(date))
